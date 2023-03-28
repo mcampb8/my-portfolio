@@ -1,0 +1,92 @@
+:root {
+    --bordercolor: chartreuse;
+    --spaceblack: slategray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--spaceblack);
+}
+header {
+    height: 15vh;
+    background: var(--bordercolor);
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:1rem;
+}
+footer {
+    height: 15vh;
+    background: var(--bordercolor);
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding:1rem;
+}
+footer nav {
+display: flex;
+justify-content: space-around;
+}
+main{
+    min-height: 70vh;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.container {
+ display:flex;
+ width: 100%;
+ padding: 5rem;
+}
+.hero-image{
+    width:100%;
+    height:200px;
+    object-fit: cover; 
+}
+.section-heading{
+    flex: 0 1 300px;
+}
+.section-body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.section-body img{
+    width:100%;
+}
+.container-images {
+gap: 1rem;
+display: flex;
+flex-wrap:wrap;
+}
+.container-images img{
+flex-grow:1;
+flex-shrink: 1;
+display: block;
+object-fit: cover;
+}
+.container-images div {
+    width:45%;
+    height: 45%;
+}
+.image-text{
+    position:relative;
+}
+.textbox {
+    color: white;
+    position:relative;
+    bottom:80px;
+    left: 20px;
+    justify-content: space-between;
+}
+.container div {
+    display: flex;
+}
+.container-div img {
+    max-width: 100%;
+    object-fit: cover;
+}
