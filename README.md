@@ -6,3 +6,5 @@ I mostly worked with flexbox and flex properties to create this responsive webpa
 Additionally, all of the links at the bottom of the page are functional and should direct you to the appropriate website or contact portal that they state.
 
 Ideally, I'd like to tinker with this a bit more, but I'm very happy with the progress I've made. I think it looks pretty close to the desired result.
+
+I did receive some help on this assignment both from a TA and a tutor when it came to my flexbox arrangement. 
