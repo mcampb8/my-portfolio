@@ -84,10 +84,24 @@ border: 5px solid black;
     position:relative;
 }
 .textbox {
-    color: white;
+    color: green;
+    background-color: darkgray;
     position:relative;
     bottom:80px;
     left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20%;
+}
+.textbox-small {
+    color: green;
+    background-color: darkgray;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+    bottom:40px;
+    right:350px;
+    max-width: 10%;
 }
 .container div {
     display: flex;
