@@ -1,6 +1,6 @@
 :root {
-    --bordercolor: chartreuse;
-    --spaceblack: slategray;
+    --bordercolor: skyblue;
+    --oceancolor: gray;
 }
 
 *{
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--spaceblack);
+    background-color: var(--oceancolor);
 }
 header {
     height: 15vh;
@@ -68,6 +68,13 @@ flex-grow:1;
 flex-shrink: 1;
 display: block;
 object-fit: cover;
+border: 5px solid black;
+}
+.section-body img {
+    border: 5px solid black;
+}
+.section-body img:hover{
+    box-shadow: 10px 10px 10px azure;
 }
 .container-images div {
     width:45%;
@@ -81,7 +88,6 @@ object-fit: cover;
     position:relative;
     bottom:80px;
     left: 20px;
-    justify-content: space-between;
 }
 .container div {
     display: flex;
@@ -89,4 +95,10 @@ object-fit: cover;
 .container-div img {
     max-width: 100%;
     object-fit: cover;
+}
+@media screen and (max-width:768px){
+    main{
+        flex-direction:column;
+        max-width: 80%;
+    }
 }
